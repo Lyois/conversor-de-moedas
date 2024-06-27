@@ -8,24 +8,24 @@ Converte o Dólar americano (USD) para as seguintes moedas e vice-versa:
 * Real brasileiro (BRL)
 * Peso chileno (CLP)
 * Peso colombiano (COP)
-Interface de menu interativa para facilitar a seleção das moedas e do valor a ser convertido.
-Utiliza a biblioteca Gson para fazer o parse do JSON da API.
-Obtem a chave da API de um arquivo de configuração externo (config.properties).
+
+Interface de menu interativa para facilitar a seleção das moedas e do valor a ser convertido.  
+Utiliza a biblioteca Gson para fazer o parse do JSON da API.  
+Obtem a chave da API de um arquivo de configuração externo (config.properties).  
 
 ## Como usar
 
 ### 1. Clone o repositório:
 `https://github.com/Lyois/conversor-de-moedas.git`
 
-### 3. Obtenha uma chave da API ExchangeRate-API:
+### 2. Obtenha uma chave da API ExchangeRate-API:
 
-Acesse o site da [ExchangeRate-API](https://www.exchangerate-api.com/) e crie uma conta gratuita.
-Copie a chave da API fornecida.
-Configure o arquivo config.properties:
+* Acesse o site da [ExchangeRate-API](https://www.exchangerate-api.com/) e crie uma conta gratuita.
+* Copie a chave da API fornecida.
 
-### 3. Crie um arquivo chamado config.properties na raiz do projeto.
-
-Adicione a seguinte linha ao arquivo, substituindo SUA_CHAVE_AQUI pela sua chave da API:
+### 3. Configure o arquivo config.properties:
+* Crie um arquivo chamado `config.properties` na raiz do projeto.  
+* Adicione a seguinte linha ao arquivo, substituindo SUA_CHAVE_AQUI pela sua chave da API:
 `API_KEY=SUA_CHAVE_AQUI`
 ### 4. Execute o conversor:
 `java Main.java`
